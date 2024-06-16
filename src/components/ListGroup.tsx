@@ -7,7 +7,6 @@ interface Props {
 
 function ListGroup({items, heading}: Props) { 
 
-  const countries = ["France", "Switzerland", "Austrillia"];
 
   //Hook in react
   const [selectedIndex,  setSelectedIndex ] = useState(-1)
